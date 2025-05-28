@@ -1,0 +1,16 @@
+临时ninja文件: /home/aosp/google-code/out/soong/build.aosp_barbet.ninja.tmp_commands
+Detected compile type: module
+Module build mode (multi_module_demo): multi_module_demo
+Expanded module targets: multi_module_demo, libmulti_module_demo
+Found 467407 targets
+获取到467407个目标
+匹配到5个相关目标
+过滤后得到2个构建目标
+开始逐个获取2个目标的编译命令
+处理目标 1/2: out/soong/.intermediates/system/core/hello/multi_module_demo/android_vendor_arm64_armv8-a/multi_module_demo
+原始输出长度: 43961字节
+处理目标 2/2: out/soong/.intermediates/system/core/hello/multi_module_demo/android_vendor_arm64_armv8-a/meta_lic
+原始输出长度: 95137字节
+成功获取2个目标的24条编译命令
+Extracted 24 compilation commands for modules
+编译命令数据库已写入: out/compile_commands.json

@@ -1,0 +1,14 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+    default_visibility: [
+        "//build/soong:__subpackages__",
+    ],
+}
+
+bootstrap_go_package {
+    name: "distbuild-boong-wrapper",
+    pkgPath: "distbuild/boong/wrapper",
+    srcs: [
+        "wrapper.go",
+    ],
+}

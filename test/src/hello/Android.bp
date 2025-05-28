@@ -1,0 +1,15 @@
+cc_binary_host {
+    name: "multi_module_demo",
+    srcs: [
+        "main.c",
+        "math_operations.c",
+        "string_operations.c",
+    ],
+    vendor: false,
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+    stl: "none",
+    local_include_dirs: ["."],
+}
